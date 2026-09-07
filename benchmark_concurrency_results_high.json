@@ -1,0 +1,2002 @@
+{
+  "levels": [
+    {
+      "concurrency": 32,
+      "requests_fired": 32,
+      "ok": 32,
+      "failed": 0,
+      "batch_wall_time_seconds": 29.55,
+      "total_completion_tokens": 48000,
+      "aggregate_tokens_per_second": 1624.3,
+      "per_request_latency_avg_s": 29.54,
+      "per_request_latency_min_s": 29.51,
+      "per_request_latency_max_s": 29.55,
+      "gpu": {
+        "count": 22,
+        "mem_used_mib_min": 132033.0,
+        "mem_used_mib_max": 132033.0,
+        "mem_used_mib_avg": 132033.0,
+        "mem_total_mib": 143771.0,
+        "gpu_util_pct_min": 0.0,
+        "gpu_util_pct_max": 100.0,
+        "gpu_util_pct_avg": 95.5,
+        "power_draw_w_avg": 611.9,
+        "power_draw_w_max": 652.8
+      },
+      "requests": [
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 29.51,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 29.54,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 29.55,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 50.8
+        }
+      ]
+    },
+    {
+      "concurrency": 64,
+      "requests_fired": 64,
+      "ok": 64,
+      "failed": 0,
+      "batch_wall_time_seconds": 35.45,
+      "total_completion_tokens": 96000,
+      "aggregate_tokens_per_second": 2708.1,
+      "per_request_latency_avg_s": 35.43,
+      "per_request_latency_min_s": 35.38,
+      "per_request_latency_max_s": 35.44,
+      "gpu": {
+        "count": 26,
+        "mem_used_mib_min": 132033.0,
+        "mem_used_mib_max": 132033.0,
+        "mem_used_mib_avg": 132033.0,
+        "mem_total_mib": 143771.0,
+        "gpu_util_pct_min": 17.0,
+        "gpu_util_pct_max": 100.0,
+        "gpu_util_pct_avg": 96.8,
+        "power_draw_w_avg": 690.4,
+        "power_draw_w_max": 698.92
+      },
+      "requests": [
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.38,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.41,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 35.41,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.4
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 35.44,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 35.42,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 35.43,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 42.3
+        }
+      ]
+    },
+    {
+      "concurrency": 96,
+      "requests_fired": 96,
+      "ok": 96,
+      "failed": 0,
+      "batch_wall_time_seconds": 41.82,
+      "total_completion_tokens": 144000,
+      "aggregate_tokens_per_second": 3443.6,
+      "per_request_latency_avg_s": 41.79,
+      "per_request_latency_min_s": 41.73,
+      "per_request_latency_max_s": 41.8,
+      "gpu": {
+        "count": 31,
+        "mem_used_mib_min": 132033.0,
+        "mem_used_mib_max": 132037.0,
+        "mem_used_mib_avg": 132036.9,
+        "mem_total_mib": 143771.0,
+        "gpu_util_pct_min": 18.0,
+        "gpu_util_pct_max": 100.0,
+        "gpu_util_pct_avg": 97.4,
+        "power_draw_w_avg": 692.1,
+        "power_draw_w_max": 702.35
+      },
+      "requests": [
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.73,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.78,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.79,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 10,
+          "title": "Online Donation Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 123,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 7,
+          "title": "Ride-Hailing Dispatch",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 119,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 3,
+          "title": "News Feed System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 117,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 5,
+          "title": "Chat Application",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 108,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 1,
+          "title": "URL Shortener",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 121,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 4,
+          "title": "Distributed Cache",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 106,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 8,
+          "title": "Video Streaming Platform",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 105,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 2,
+          "title": "Rate Limiter",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 115,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 9,
+          "title": "Distributed Job Scheduler",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 110,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        },
+        {
+          "case_id": 6,
+          "title": "Payment Processing System",
+          "status": "ok",
+          "elapsed_seconds": 41.8,
+          "finish_reason": "length",
+          "prompt_tokens": 114,
+          "completion_tokens": 1500,
+          "tokens_per_second_individual": 35.9
+        }
+      ]
+    }
+  ]
+}
